@@ -12,11 +12,11 @@ export default function Footer() {
         py: 6,
         px: 4,
         pl: {md:14},
-        pr: 6,
-         width:{xs:"380px",md:"100%"}
+        pr: {md:6},
+         width:{xs:"300px",md:"100%"}
       }}
     >
-      <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ width:{xs:"290px",md:"100%"}, mx: "auto" }}>
+      <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ width:{md:"100%"}, mx: "auto" }}>
         {/* Left Section - Logo and Description */}
         <Box sx={{width:"350px"}} >
           <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 2 }}>
