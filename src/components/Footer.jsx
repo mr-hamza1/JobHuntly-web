@@ -97,7 +97,7 @@ export default function Footer() {
         </Stack>
 
         {/* Right Section - Newsletter Signup */}
-        <Box sx={{ flex: 1, minWidth: "340px" }}>
+        {/* <Box sx={{ flex: 1, minWidth: "340px" }}>
           <Typography variant="subtitle1" sx={{ fontWeight: "bold", mb: 1 }}>
             Get job notifications
           </Typography>
@@ -146,8 +146,8 @@ export default function Footer() {
               Subscribe
             </Button>
           </Stack>
-        </Box>
-      </Stack>
+        </Box>*/}
+      </Stack> 
 
       {/* Bottom Section - Copyright and Social */}
       <Box
