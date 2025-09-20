@@ -144,8 +144,6 @@ const Header = ({ bg }) => {
           {/* Mobile Menu Button */}
           <Box display={{ xs: "flex", md: "none" }}>
             <IconButton
-            disableRipple
-  disableFocusRipple
               onClick={handleMenuOpen}
               sx={{
                 border: "2px solid #d1d9e6",
@@ -158,19 +156,27 @@ const Header = ({ bg }) => {
             </IconButton>
 
             {/* Dropdown Menu */}
-            <Menu
-              anchorEl={anchorEl}
-              open={Boolean(anchorEl)}
-              onClose={handleMenuClose}
-              PaperProps={{
-                sx: {
-                  mt: 1.5,
-                  minWidth: 180,
-                  borderRadius: 2,
-                  boxShadow: 3,
-                },
-              }}
-            >
+     <Menu
+  anchorEl={anchorEl}
+  open={Boolean(anchorEl)}
+  onClose={handleMenuClose}
+  anchorOrigin={{
+    vertical: "bottom",
+    horizontal: "right",
+  }}
+  transformOrigin={{
+    vertical: "top",
+    horizontal: "right",
+  }}
+  PaperProps={{
+    sx: {
+      mt: 1,
+      borderRadius: 2,
+      boxShadow: 3,
+    },
+  }}
+>
+
               <MenuItem
                 onClick={() => {
                   router.push("/search");
