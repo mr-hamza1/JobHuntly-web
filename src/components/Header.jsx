@@ -150,6 +150,7 @@ const Header = ({ bg }) => {
                 borderRadius: "50%",
                 width: 40,
                 height: 40,
+                position: "fixed",
               }}
             >
               <MenuIcon sx={{ fontSize: 26, color: "#1e2a3a" }} />

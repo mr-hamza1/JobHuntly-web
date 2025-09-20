@@ -13,9 +13,10 @@ export default function Footer() {
         px: 4,
         pl: {md:14},
         pr: {md:6},
-         width:{xs:"340px",md:"90%"}
+         width:{xs:"340px",md:"88.15%"},
       }}
       overflow={"hidden"}
+     
     >
       <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ width:{md:"100%"}, mx: "auto" }}>
         {/* Left Section - Logo and Description */}
