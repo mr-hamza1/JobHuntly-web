@@ -13,7 +13,7 @@ export default function Footer() {
         px: 4,
         pl: {md:14},
         pr: 6,
-         width:{xs:"403px",md:"100%"}
+         width:{xs:"380px",md:"100%"}
       }}
     >
       <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ width:{xs:"290px",md:"100%"}, mx: "auto" }}>
