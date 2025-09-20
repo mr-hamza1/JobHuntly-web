@@ -4,11 +4,10 @@ import React from 'react';
 
 const First = () => {
   return (
-    <Stack mt={{xs:5,md:8}} width={"100%"} sx={{backgroundColor: "rgba(248, 248, 253, 1)"}} overflow={"hidden"}>
+    <Stack mt={{xs:5,md:8}} width={"100%"} sx={{backgroundColor: "rgba(248, 248, 253, 1)"}} >
       <Stack pb={{xs:"1.5rem",md:"5rem"}}
         width={{ xs: "100%", md: "629px" }}
         pl={{ xs: 3, md: "6rem" }}
-        ml={{ xs: 0, md: 0 }}
         pt="70px"
         spacing={3}
 
