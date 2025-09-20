@@ -7,10 +7,11 @@ const First = () => {
     <Stack mt={{xs:5,md:8}} width={"100%"} sx={{backgroundColor: "rgba(248, 248, 253, 1)"}} overflow={"hidden"}>
       <Stack pb={{xs:"1.5rem",md:"5rem"}}
         width={{ xs: "100%", md: "629px" }}
-        pl={{ xs: 0, md: "6rem" }}
+        pl={{ xs: 3, md: "6rem" }}
+        ml={{ xs: 0, md: 0 }}
         pt="70px"
-        // pr={{xs:"1rem",md:0}}
         spacing={3}
+
       >
         {/* Headings */}
         <Stack spacing={-1}>
