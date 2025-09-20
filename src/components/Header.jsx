@@ -144,6 +144,8 @@ const Header = ({ bg }) => {
           {/* Mobile Menu Button */}
           <Box display={{ xs: "flex", md: "none" }}>
             <IconButton
+            disableRipple
+  disableFocusRipple
               onClick={handleMenuOpen}
               sx={{
                 border: "2px solid #d1d9e6",
