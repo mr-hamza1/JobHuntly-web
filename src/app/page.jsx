@@ -9,7 +9,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <Box width={{xs:"600px",md:"100%"}} height={"100%"} overflow={"hidden"} >
+    <Box width={{xs:"500px",md:"100%"}} height={"100%"} overflow={"hidden"} >
         <First />
         <Second />
         <Third />
