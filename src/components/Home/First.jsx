@@ -9,6 +9,7 @@ const First = () => {
         width={{ xs: "100%", md: "629px" }}
         pl={{ xs: 3, md: "6rem" }}
         pt="70px"
+        pr={{xs:"1rem",md:0}}
         spacing={3}
       >
         {/* Headings */}
