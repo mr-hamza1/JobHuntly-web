@@ -15,7 +15,7 @@ export default function Footer() {
         pr: {md:6},
       }}
     >
-      <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ maxWidth: "1200px", mx: "auto" }}>
+      <Stack direction={{ xs: "column", md: "row" }} spacing={4} sx={{ width:{xs:"400px",md:"100%"}, mx: "auto" }}>
         {/* Left Section - Logo and Description */}
         <Box sx={{width:"350px"}} >
           <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 2 }}>

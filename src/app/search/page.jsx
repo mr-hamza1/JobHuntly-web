@@ -7,7 +7,7 @@ import React from 'react'
 
 const page = () => {
   return (
-        <Box width={"100%"} height={"100%"} overflow={"hidden"} >
+        <Box width={{xs:"400px",md:"100%"}}  height={"100%"} overflow={"hidden"} >
             <Header bg={"white"} />
             <Main />
             <JobSearch />
